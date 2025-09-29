@@ -1,0 +1,149 @@
+.item-price {
+	margin-top: 2px;
+	font-size: 0.98rem;
+	color: #0a3d62;
+	font-weight: 600;
+	text-align: center;
+}
+    /* Menu grid styling */
+.menu-grid {
+	display: flex;
+	flex-wrap: wrap;
+	.logo {
+		width: 300px;
+		height: 300px;
+		object-fit: contain;
+		margin-bottom: 8px;
+		border-radius: 50%;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+		background: lightblue;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 3px solid #000;
+	}
+		background: #fff;
+		padding: 24px 0 8px 0;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+	}
+
+	.logo {
+		width: 300px;
+		height: 300px;
+		object-fit: contain;
+		margin-bottom: 8px;
+		border-radius: 50%;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+		background: #fff;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo-3d {
+		font-size: 2.2rem;
+		margin: 0;
+		letter-spacing: 2px;
+		color: #7c4a1e;
+		text-align: center;
+		text-shadow:
+			0 2px 8px #fff,
+			0 4px 16px #f7cac9,
+			0 1px 0 #b4846c,
+			0 0 16px #fff,
+			0 0 32px #f7cac9;
+		font-weight: bold;
+	}
+
+	.menu-section {
+	.menu-section {
+		margin: 40px auto 0 auto;
+		max-width: 1100px;
+		background: #fff;
+		border-radius: 16px;
+		box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+		padding: 32px 24px 24px 24px;
+		margin-bottom: 32px;
+		border: 3px solid #000;
+	}
+/* Navigation Bar */
+.main-nav {
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	margin: 12px 0 0 0;
+}
+.main-nav a {
+	color: #7c4a1e;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.1rem;
+	transition: color 0.2s;
+}
+.main-nav a:hover {
+	color: #b4846c;
+	text-shadow: 0 2px 8px #fff;
+}
+
+/* About & Contact Sections */
+.about-section, .contact-section {
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+	max-width: 900px;
+	margin: 32px auto;
+	padding: 32px 24px;
+	text-align: center;
+}
+.about-section h2, .contact-section h2 {
+	color: #7c4a1e;
+	margin-bottom: 12px;
+}
+.about-section p, .contact-section p {
+	font-size: 1.1rem;
+	color: #333;
+}
+
+	.menu-section h2 {
+		color: #7c4a1e;
+		margin-bottom: 18px;
+		font-size: 1.6rem;
+		letter-spacing: 1px;
+		text-align: left;
+	}
+
+	footer {
+		text-align: center;
+		padding: 24px 0 16px 0;
+		color: #7c4a1e;
+		background: #f3ede7;
+		font-size: 1rem;
+		margin-top: 40px;
+	}
+	gap: 24px;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 140px;
+}
+
+.menu-item img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.item-name {
+	margin-top: 8px;
+	font-size: 1rem;
+	text-align: center;
+	color: #333;
+	font-weight: 500;
+}
